@@ -1,10 +1,4 @@
 <?php
-    session_start();
-    
-    if(!(isset($_SESSION['user']))) {
-        header("location: ../login/form-login.php");
-    }
-
     include "../connect.php";
     
     $query = "SELECT * FROM dosen";
@@ -43,7 +37,8 @@
                 }
             ?>
         </table><br>
-        <a href="form-create.php">Tambah Data</a><br>
-        <a href="../login/logout.php">Logout</a>
+        <a class="tombol" href="form-create.php">Tambah Data</a><br>
+        <a class="tombol" href="../login/logout.php">Logout</a><br>
+        <a class="tombol" href="../daftar-isi.php">Kembali Ke Daftar Isi</a>
     </body>
 </html>

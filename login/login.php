@@ -14,7 +14,7 @@
         $num = mysqli_num_rows($result);
 
         if($num == 1) {
-            header("location: ../dosen/read.php");
+            header("location: ../daftar-isi.php");
             $_SESSION['user'] = $username;
         } else {
             header("location : form-login.php");

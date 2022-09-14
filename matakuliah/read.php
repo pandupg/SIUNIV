@@ -51,6 +51,7 @@
             }
         ?>
     </table> <br>
-    <a href="form-create.php">Tambah Data</a>
+    <a href="form-create.php">Tambah Data</a><br>
+    <a href="../daftar-isi.php">Kembali Ke Daftar Isi</a>
 </body>
 </html>
